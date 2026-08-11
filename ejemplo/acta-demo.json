@@ -1,0 +1,44 @@
+{
+  "cierre": {
+    "cantidad": 3,
+    "firma": "acta1_uokPoKKIXdTVqzfkF9LYPyDE2u0XtAlWMRF_L27vhhUN22Ux2NA-7fQMONeN5BQaI9OTh9gXRBtqEbaF4f7qAw==",
+    "hash_final": "e8501112844759bcd37aa5cb430c3255768ca1a2ce07117519a7bdcd62e33f4b",
+    "sello_requerido": false
+  },
+  "clave_publica": "CXckg2zl7MDKg4M9Av3aM9kihAk1gL-Bras4VNhc6zE=",
+  "entradas": [
+    {
+      "datos": {
+        "n": 500,
+        "p50_ms": 120,
+        "p95_ms": 340
+      },
+      "hash": "0a5b77e1b9b149324aee9504a24af8dd786972f3dd830ed7726c482d13a35b51",
+      "n": 0,
+      "tipo": "medicion.tiempo_de_respuesta",
+      "ts": 1754800000000000000
+    },
+    {
+      "datos": {
+        "aciertos": 91,
+        "total": 100
+      },
+      "hash": "9a0c160eaeeda6520f8cd3373e9531cdb1fb14d50f8a2916eb0bbb7bf216b520",
+      "n": 1,
+      "tipo": "medicion.aciertos",
+      "ts": 1754800001000000000
+    },
+    {
+      "datos": {
+        "digest": "sha256:abababababababababababababababababababababababababababababababab",
+        "perfil": "perfil-demo"
+      },
+      "hash": "e8501112844759bcd37aa5cb430c3255768ca1a2ce07117519a7bdcd62e33f4b",
+      "n": 2,
+      "tipo": "configuracion",
+      "ts": 1754800002000000000
+    }
+  ],
+  "esquema": "acta-evidencia-1",
+  "organizacion": "org-demo"
+}

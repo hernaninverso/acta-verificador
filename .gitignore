@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Documentación operativa interna: vive en el repositorio propietario, no acá.
+*-EN-PYPI.md
+NOTAS-INTERNAS*.md

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "acta-verificador"
+version = "0.1.1"
+description = "Verificador independiente de actas de evidencia de Eleion Acta"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+authors = [{name = "Eleion"}]
+keywords = ["evidencia", "auditoria", "ed25519", "cadena-de-hash"]
+dependencies = []
+
+[project.optional-dependencies]
+firma = ["cryptography>=42"]
+dev = ["cryptography>=42", "pytest>=8"]
+
+[project.scripts]
+acta-verificar = "acta_verificador.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
